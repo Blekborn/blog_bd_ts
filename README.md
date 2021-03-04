@@ -1,14 +1,24 @@
-1) Сгенерировать сущности User
-    - rails g model User name email password_digest
-    - Установить и настроить гем Devise для сущности User
-2) Сгенерировать сущности Post и затем прогнать миграцию
-    - rails g model Post name title content:text image
-    - rake db:migrate
-3) Загружаем наши файлы на S3 или (Cloudinary)
-4) Сделать поиск через автокомплит
-5) При клике на категорию для получение определенных товаров - выделить категорию
-6) Добавить пагинацию
-7) Добавить ЧПУ можно пока гемы не использовать а заюзать to_param(https://apidock.com/rails/ActiveRecord/Base/to_param)
-8) Добавить сущность комментарии для постов и пользователей, с полями body & rating
-9) Добавить возможность авторизации с помощью гема omniauth, используя github как провайдер
-10) Пользователь может создавать, редактировать и удалять свой комментарий
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
